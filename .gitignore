@@ -14,3 +14,39 @@ run_logs
 .not*
 dist
 *.parquet
+
+# compiled / caches
+*.py[cod]
+*.so
+.pytest_cache
+.coverage
+htmlcov
+.venv
+venv
+
+# data & checkpoints
+data/
+datasets/
+checkpoints/
+ckpt/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.npz
+*.npy
+*.pkl
+*.h5
+*.hdf5
+*.zarr
+
+# outputs
+eval_out/
+outputs/
+output/
+logs/
+videos/
+*.mp4
+*.gif
